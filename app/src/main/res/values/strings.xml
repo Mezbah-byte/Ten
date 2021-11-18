@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ten</string>
+    <string name="app_version">1.0.0</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_sign_up">New User? Sign Up</string>
+    <string name="sign_up">Register</string>
+</resources>

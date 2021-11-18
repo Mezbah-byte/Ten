@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/drawable/circular_grey_bordersolid.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/drawable/circularbordersolid.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/drawable/round_button.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/font/antic.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_ad_view.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_buy_token.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_home.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_main.xml" value="0.1408514492753623" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_payment_submit.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_select_deposit_method.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_sign_up.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_welcome.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/gateway_list_item.xml" value="0.22" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide1.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide2.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide3.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide4.xml" value="0.213768115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

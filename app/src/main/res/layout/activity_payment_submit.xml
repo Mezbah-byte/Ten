@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment_submit">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/gateway_type_on_payment_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our personal Bkash number : "
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/gateway_number_on_payment_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0123456789 "
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/total_amount_on_payment_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount : 500 tk"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+
+            <TextView
+                android:id="@+id/gateway_desc_on_payment_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send money to this account"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:endIconMode="clear_text"
+                app:boxStrokeWidthFocused="2dp"
+                android:textColorHint="@color/black"
+                app:startIconDrawable="@drawable/ic_phone_android_black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="Enter Sender Number">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sender_number_ondeposit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                app:endIconTint="@color/black"
+                app:hintTextColor="@color/black"
+                app:endIconMode="clear_text"
+                app:boxStrokeWidthFocused="2dp"
+                android:textColorHint="@color/black"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:hint="Enter TrxId">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/trx_id_ondeposit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/deposit_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_button"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="5dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
