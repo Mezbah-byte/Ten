@@ -15,13 +15,18 @@
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_main.xml" value="0.1408514492753623" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_payment_submit.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_select_deposit_method.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_select_withdraw_method.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_sign_up.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_welcome.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_withdraw_list.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_withdraw_list_2.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/activity_withdraw_now.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/gateway_list_item.xml" value="0.22" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide1.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide2.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide3.xml" value="0.213768115942029" />
         <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/welcome_slide4.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/Mezbah/AndroidStudioProjects/Ten/app/src/main/res/layout/withdraw_list_item.xml" value="0.213768115942029" />
       </map>
     </option>
   </component>

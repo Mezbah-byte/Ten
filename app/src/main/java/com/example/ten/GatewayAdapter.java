@@ -21,11 +21,13 @@ public class GatewayAdapter extends RecyclerView.Adapter<GatewayAdapter.ViewHold
 
     private ArrayList<PaymentGatewayListResponse> paymentGatewayListResponses=new ArrayList<>();
     private Context context;
+    String payment_type;
 
 
-    public GatewayAdapter(Context context, ArrayList<PaymentGatewayListResponse> paymentGatewayListResponses) {
+    public GatewayAdapter(Context context, ArrayList<PaymentGatewayListResponse> paymentGatewayListResponses, String payment_type) {
         this.paymentGatewayListResponses=paymentGatewayListResponses;
         this.context=context;
+        this.payment_type = payment_type;
     }
 
     @NonNull
@@ -44,9 +46,16 @@ public class GatewayAdapter extends RecyclerView.Adapter<GatewayAdapter.ViewHold
         viewHolder.select_gateway.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context,payment_submit.class);
-                intent.putExtra("gateway_id",paymentGatewayListResponses.get(i).getId());
-                context.startActivity(intent);
+                if (payment_type == "deposit"){
+                    Intent intent = new Intent(context,payment_submit.class);
+                    intent.putExtra("gateway_id",paymentGatewayListResponses.get(i).getId());
+                    context.startActivity(intent);
+                } else if (payment_type.equals("withdraw")){
+                    Intent intent = new Intent(context,withdraw_now.class);
+                    intent.putExtra("gateway_id",paymentGatewayListResponses.get(i).getId());
+                    context.startActivity(intent);
+                }
+
             }
         });
     }

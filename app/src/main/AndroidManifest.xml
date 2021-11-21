@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ten">
         <activity
+            android:name=".select_withdraw_method"
+            android:exported="true" />
+        <activity
+            android:name=".withdraw_now"
+            android:exported="true" />
+        <activity
+            android:name=".withdraw_list"
+            android:exported="true" />
+        <activity
             android:name=".payment_submit"
             android:exported="true" />
         <activity

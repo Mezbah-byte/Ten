@@ -35,6 +35,9 @@ public interface UserService {
     @POST("submit_deposit_request")
     Call<DepositSubmitResponse> submit_deposit_request(@Body DepositSubmitRequest depositSubmitRequest);
 
+    @POST("withdraw_list")
+    Call<List<WithdrawListResponse>> withdraw_list(@Body WithdrawListRequest withdrawListRequest);
+
 
 //    @POST("get_exam")
 //    Call<ExamResponse> getExam(@Body ExamRequest examRequest);

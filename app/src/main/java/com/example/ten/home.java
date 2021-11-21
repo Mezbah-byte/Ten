@@ -78,6 +78,13 @@ public class home extends AppCompatActivity {
                 startActivity(new Intent(home.this,buy_token.class));
             }
         });
+
+        withdraw_onhome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(home.this,withdraw_list.class));
+            }
+        });
     }
 
 
